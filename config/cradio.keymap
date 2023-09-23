@@ -94,12 +94,12 @@
                 };
                 nav_layer {
 // -----------------------------------------------------------------
-// |     |     |     |     |     | |     |     |     |     |     |
+// |     |     |     |     |     | |     | CMD{| CMD}|     |     |
 // |     |     |     |     |     | | LFT | DWN | U P |RIGHT|_NAV_|
 // |     |     |     |     |     | | HOM |PG_DN|PG_UP| END |     |
 //                   |     | SPC | | RET |_NUM_|
                         bindings = <
-   &none &none &none &none &none &none    &none     &none     &none     &none 
+   &none &none &none &none &none &none    &kp LG(LS(LBKT))     &kp LG(LS(RBKT))     &none     &none 
    &none &none &none &none &none &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans  
    &none &none &none &none &none &kp HOME &kp PG_DN &kp PG_UP &kp END   &none 
                          &none &trans &trans &trans
